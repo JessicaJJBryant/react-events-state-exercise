@@ -13,7 +13,9 @@ function Exercise(){
             {/* 1e. */}
             <button onClick={() => alert("Congrats! You have clicked the button.")}>CLICK HERE</button>
             {/* 2b. & 2e. */}
-            <button onClick={() => setNum(addNum)}>STATE</button>
+            {/* I had the below line, but the one right under it is what they had in class. Mine worked, but I'm guessing we just had to pass in the addNum function and not all the other junk that I had. I'm still so confused on this. Need to review. */}
+            {/* <button onClick={() => setNum(addNum)}>STATE</button> */}
+            <button onClick={addNum}>STATE</button>
             {/* 2f. */}
             <h1>{num}</h1>
         </div>
